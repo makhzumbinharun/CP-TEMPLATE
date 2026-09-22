@@ -21,7 +21,7 @@ int main(){
         t.push_back({a, d});
     }
     sort(t.begin(), t.end());
-    int time = 0, r = 0;
+    ll time = 0, r = 0;
 
     for (auto t : t) {
         int a = t.first;
